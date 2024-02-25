@@ -3,6 +3,7 @@ public:
     vector<int> findAllPeople(int n, vector<vector<int>>& meetings, int firstPerson) {
         set<int>st;
         unordered_map<int,vector<pair<int,int>>>mpp;
+        //jhkjhkjhkj
         for(auto&it:meetings)
         {
             mpp[it[0]].push_back({it[1],it[2]});
